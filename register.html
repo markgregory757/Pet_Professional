@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+    <title>Pet Professionals</title>
+</head>
+<body>
+    <div class="header">
+        <div>
+          <h4><img src="images/logo1.png" width="50" height="50">Paradigm Pet Professionals</h4>
+          <h5>Evidence-based pet care advice for every pet lover</h5>  
+        </div>
+       
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>Home</button>
+        <div class="dropdown-menu information-grid">
+          <div>
+            <div class="dropdown-links">
+              <a href="index.html" class="link">Home</a>
+              <a href="cat.html" class="link">Cats</a>
+              <a href="dog.html" class="link">Dogs</a>
+              <a href="birds.html" class="link">Birds</a>
+              <a href="fish.html" class="link">Fish</a>
+              <a href="smallAnimals.html" class="link">Small Animals</a>
+              <a href="faq.html" class="link">FAQs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+      <div>
+        <h5>
+
+        </h5>
+      </div>
+    </div>
+
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name" >Name:</label>
+                <input type="text" id="name" name="user_name" placeholder="Required" required>
+            </li>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Required" required>
+            </li>
+            <li>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Required" required>
+            </li>
+            <li>
+                <lable for="pet_name">Pet's Name</lable>
+                <input type="text" id="pet_name" name="pet_name" placeholder="Required" required>
+            </li>
+            <li>
+                <lable for="pet_breed">Pet's Breed/Type</lable>
+                <input type="text" id="pet_breed" name="pet_breed" placeholder="Required" required>
+            </li>
+            <li>
+              <lable for="pet_age">Pet's Age</lable>
+              <input type="text" id="pet_age" name="pet_age" placeholder="Required" required>
+          </li>
+            <li>
+                <field name="mytimezone" type="timezone" default="-10" label="Select a timezone" description="timezone" />
+                <label for="schedule" name="mytimezone">Appointment (date and time)</label>
+                <input type="datetime-local" name="mytimezone" id="mytimezone">
+            </li>
+        </ul>
+        <button class="btn">Submit</button>
+    </form>
+
+</body>
+<footer style="padding-left: 15%;"> <img src="images/hamster.jpg"> <img src="images/logo2.png" width="400" height="165" style="padding-bottom: 4%;"> <img src="images/bird2.jpg"> </footer>
+</html>
